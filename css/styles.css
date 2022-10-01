@@ -1,0 +1,204 @@
+
+/* Колір основного текста #757575 */
+/* Колір заголовків #212121 */
+/* Колір шапки #FFFFFF */
+/* Колір бекграунду героя  #2F303A*/
+/* Колір бекграунду Наші переваги  #F5F5F5 */
+/* Колір бекграунду Наша команда #F5F4FA*/
+/* Акцент #2196F3 */
+:root{
+    --main-text-color: #757575;
+    --header-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --hero-bcg-color: #2F303A;
+    --accent-color: #2196F3;
+    --our-advances-bcg-color: #F5F5F5;
+    --our-team-bcg-color: #F5F4FA;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --footer-link-adress-color: rgba(255, 255, 255, 1);
+}
+body {
+    background-color: var( --primary-white-color);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
+}
+.list {
+    list-style: none;
+}
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+/* logo */
+.logo-linkfirst{
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;  
+}
+.logo-linksecond {
+    color: var(--primary-black-color);
+    font-family: Raleway, sans-serif
+}
+/* Site navigation */
+.site-navig a{
+color: var(--header-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+text-decoration: none;  
+}
+.site-navig a:hover,
+.site-navig a:focus{
+    color: var(--accent-color);   
+}
+  .site-navig .current{
+    color: var(--accent-color);
+}
+/* Site links */
+.site-links a{
+color:var(--main-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+text-decoration: none; 
+}
+.site-links a:hover,
+.site-links a:focus{
+    color: var(--accent-color);
+}
+/* Button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: inherit
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.06em;
+}
+.button-portfolio{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: inherit
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;   
+}
+
+/* Hero */
+.section-hero-title{
+    color: var( --primary-white-color);
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.section-hero{
+    background-color: var(--hero-bcg-color);;
+}
+/* Our advances */
+.our-advance{
+   background-color: var(--our-advances-bcg-color) ; 
+}   
+.our-advance .header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+.our-advance p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;   
+}
+.our-works .header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+ /*our team  */
+ .our-team{
+    background-color: var(--our-team-bcg-color);
+ }
+ .our-team .header.header{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,18;
+text-align: center;
+ }
+ .our-team .our-team-header{
+color:var(--header-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+ }
+.our-team p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}
+/* Headers */
+.header{
+    color:var(--header-text-color)
+}
+/* footer */
+.footer-bg{
+    background-color: var(--hero-bcg-color);
+}
+.logo-linksecond-white{
+    color: var( --primary-white-color);
+}
+.site-links .footer-link{
+color: var(--footer-link-color);
+}
+.site-links .footer-adress{
+color: var( --footer-link-adress-color);
+}
+address {
+    font-style: normal
+  }
+.footer-bg address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;   
+}
+/* portfolio css */
+.our-portfolio{
+    background-color: var(--our-advances-bcg-color);
+}
+.our-portfolio .header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.our-portfolio p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    text-align: center; 
+}
