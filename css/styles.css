@@ -181,6 +181,9 @@ address {
     line-height: 1.71;
     letter-spacing: 0.03em;   
 }
+.footer-links a{
+text-decoration: none;
+}
 /* portfolio css */
 .our-portfolio{
     background-color: var(--our-advances-bcg-color);
